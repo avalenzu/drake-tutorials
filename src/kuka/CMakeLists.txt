@@ -32,3 +32,6 @@
 
 add_executable(passive_kuka_sim passive_kuka_sim.cc)
 target_link_libraries(passive_kuka_sim drake::drake)
+
+add_executable(inverse_dynamics_kuka_sim inverse_dynamics_kuka_sim.cc)
+target_link_libraries(inverse_dynamics_kuka_sim drake::drake)
