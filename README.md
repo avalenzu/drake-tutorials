@@ -23,5 +23,5 @@ cmake ..
 make
 
 # Run a demo
-/opt/drake/bin/drake_visualizer &
+/opt/drake/bin/drake-visualizer &
 (cd src/kuka && exec ./passive_kuka_sim)         
